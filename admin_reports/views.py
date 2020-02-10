@@ -14,7 +14,7 @@ from django.views.generic import TemplateView
 from django.http import HttpResponse
 from django.utils.html import format_html
 from django.shortcuts import render
-from django.contrib.admin.templatetags.admin_static import static
+from django.templatetags.static import static
 from django.contrib.admin.options import IncorrectLookupParameters
 
 logger = logging.getLogger(__name__)
